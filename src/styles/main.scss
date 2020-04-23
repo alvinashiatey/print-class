@@ -12,6 +12,7 @@ body {
   position: relative;
   font-size: 62.5%;
   overflow: hidden;
+  position: relative;
 }
 
 canvas {
@@ -19,4 +20,54 @@ canvas {
   padding: 2rem;
   margin: auto;
   display: block;
+}
+
+@media print {
+  .cover-print {
+    display: none;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
+}
+
+.cover-print {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: #fefefe;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-align: center;
+    code {
+    }
+  }
+}
+
+.quote {
+  position: absolute;
+  width: 40vw;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  height: 90vh;
+  p {
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 1.5rem;
+    color: #181818;
+    // font-variant: small-caps;
+    text-align: justify;
+  }
 }
