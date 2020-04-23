@@ -37,7 +37,7 @@ canvas {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background: #fefefe;
+  background: #181818;
   top: 0;
   bottom: 0;
   left: 0;
@@ -50,6 +50,7 @@ canvas {
     transform: translate(-50%, -50%);
     font-size: 2rem;
     text-align: center;
+    color: #fefefe;
     code {
     }
   }
