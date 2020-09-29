@@ -16,14 +16,14 @@ let a = (aa) => {
     "#a09958",
     "#c58b68",
   ];
-  quoteInsert = document.querySelector(".quote");
+
   quotes = [
     "&#182; alone, i am nothing. i have nothing.we have power.but we will never know it,we will never see it work.unless we come together to make it work.",
     "&#182; true, I used to see a lot of hope. I saw men tear down the veils behind which the truth had been hidden. But then the same men, when they have power in their hands at last, began to find the veils useful.",
   ];
 
   randSelec = Math.floor(Math.random() * quotes.length);
-  quoteInsert.innerHTML = `<p>${quotes[randSelec]}</p>`;
+
   letterNum = quotes[randSelec].split(/\s/);
   offSet = 16;
 
