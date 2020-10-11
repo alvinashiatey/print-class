@@ -5,16 +5,16 @@ let a = (aa) => {
   let colors, quotes, quoteInsert, letterNum, randSelec, offSet;
 
   colors = [
-    "#dddae8",
-    "#a4bcc2",
-    "#779fb5",
-    "#56b093",
-    "#96a480",
-    "#9ab9ad",
-    "#2a514d",
-    "#d9ea9a",
-    "#a09958",
-    "#c58b68",
+    "#f20530",
+    "#04d99d",
+    "#b6bf6f",
+    "#bfab9f",
+    "#8c0e03",
+    "#a6606d",
+    "#05c7f2",
+    "#285930",
+    "#f2921d",
+    "#a67a76",
   ];
 
   quotes = [
